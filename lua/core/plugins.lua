@@ -77,6 +77,7 @@ return require('packer').startup(function(use)
       {'nvim-lua/plenary.nvim'}
     }
   }
+  use { 'nvim-telescope/telescope-fzy-native.nvim' }
   -- float terminal
   use { "akinsho/toggleterm.nvim", tag = '*' }
   -- git
