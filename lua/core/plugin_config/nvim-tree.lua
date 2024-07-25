@@ -4,7 +4,7 @@ vim.g.loaded_netrwPlugin = 1
 require("nvim-tree").setup({
   view = {
     width = 60,
-    side="right",
+    side="left",
   },
   actions = {
     open_file = {

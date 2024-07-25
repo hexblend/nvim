@@ -38,13 +38,13 @@
 
 -- Tokyo Night
 require('tokyonight').setup({
-  -- style = "night",
-  -- terminal_colors = true,
+  style = "storm",
+  terminal_colors = false,
   transparent_background = true,
   transparent = true,
   styles = {
     sidebar = "transparent",
-    -- floats = "transparent"
+    floats = "transparent"
   }
 })
 
